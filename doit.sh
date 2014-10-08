@@ -14,7 +14,6 @@ cp doit.sh B2G/
 cd B2G 
 git clone https://github.com/markuman/backup-keon.git 
 ./config.sh keon 
-./build.sh
 
 
 elif [[ "$1" = "-update" ]]; then
